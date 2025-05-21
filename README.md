@@ -36,16 +36,19 @@ Step 3: Repeat the  iteration  until the losses become constant and  minimum<BR>
 Step 4 : Test for the XOR patterns.
 
 <H3>Program:</H3>
-```
+
+py```
 import numpy as np
 import pandas as pd
 import io
 import matplotlib.pyplot as plt
 ```
+
 ```py
 x=np.array([[0,0,1,1],[0,1,0,1]])
 y=np.array([[0,1,1,0]])
 ```
+
 ```py
 n_x = 2
 n_y = 1
